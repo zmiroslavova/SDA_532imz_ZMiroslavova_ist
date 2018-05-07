@@ -25,7 +25,7 @@ namespace SDA_532imz_ZMiroslavova_ist
             string output = "";
             if (isPalindrome(sum))
             {
-                output = "Sum of" + inputNumber + " and his reverse number is " + sum + " and it is palindrom";
+                output = "Sum of" + inputNumber + " and his reverse number is " + sum + " and it is palindrome";
             }
             else
             {
@@ -34,7 +34,8 @@ namespace SDA_532imz_ZMiroslavova_ist
                     sum = sum + reverseNumber(sum);
                     if (isPalindrome(sum))
                     {
-                        output = "The final sum of " + inputNumber + " and his reverse numbers is " + sum + " and it is palindrom";
+                        output = "The final sum of " + inputNumber + " and his reverse numbers is " + sum + 
+                            " and it is palindrome";
                         break;
                     }
                     else
